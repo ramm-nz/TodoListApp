@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "isCompleted": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "id",
+    "description",
+    "isCompleted"
+  ]
+}

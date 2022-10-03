@@ -1,0 +1,91 @@
+Request method:	POST
+Request URI:	http://localhost:3002/api/todoItems/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "gaxkg4m87k"
+}
+HTTP/1.1 201 Created
+Date: Mon, 03 Oct 2022 19:46:31 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Transfer-Encoding: chunked
+Location: http://localhost:3002/api/todoItems/01c92980-28e0-47da-8d04-4feac1f9a0b7
+
+"01c92980-28e0-47da-8d04-4feac1f9a0b7"
+Request method:	GET
+Request URI:	http://localhost:3002/api/todoItems/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 03 Oct 2022 19:46:32 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+    {
+        "id": "01c92980-28e0-47da-8d04-4feac1f9a0b7",
+        "description": "gaxkg4m87k",
+        "isCompleted": false
+    }
+]
+Request method:	PUT
+Request URI:	http://localhost:3002/api/todoItems/01c92980-28e0-47da-8d04-4feac1f9a0b7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "gaxkg4m87k",
+    "id": "01c92980-28e0-47da-8d04-4feac1f9a0b7",
+    "isCompleted": true
+}
+HTTP/1.1 204 No Content
+Date: Mon, 03 Oct 2022 19:46:32 GMT
+Server: Kestrel
+Request method:	GET
+Request URI:	http://localhost:3002/api/todoItems/01c92980-28e0-47da-8d04-4feac1f9a0b7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Mon, 03 Oct 2022 19:46:33 GMT
+Content-Type: application/json; charset=utf-8
+Server: Kestrel
+Transfer-Encoding: chunked
+
+{
+    "id": "01c92980-28e0-47da-8d04-4feac1f9a0b7",
+    "description": "gaxkg4m87k",
+    "isCompleted": true
+}
